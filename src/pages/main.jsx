@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './components/navbar'
-import Gallery from './components/main-canvas'
+import Gallery from './components/gallery'
 
 const Main = () => {
     return (

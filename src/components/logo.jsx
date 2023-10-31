@@ -1,6 +1,6 @@
 const Logo = () => {
     return (
-        <div>Logo</div>
+        <div>Gallery</div>
     )
 }
 
