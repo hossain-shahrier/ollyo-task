@@ -4,7 +4,7 @@ import Gallery from './components/gallery'
 
 const Main = () => {
     return (
-        <main className='h-full'>
+        <main className='h-full '>
             <Navbar />
             <Gallery />
         </main>

@@ -10,5 +10,4 @@ export const images = [
     { src: "/images/image-9.webp", id: 9, alt: "iamge", featured: false },
     { src: "/images/image-10.jpeg", id: 10, alt: "iamge", featured: false },
     { src: "/images/image-11.jpeg", id: 11, alt: "iamge", featured: true },
-
 ];

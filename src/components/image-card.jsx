@@ -1,10 +1,9 @@
-import React from 'react'
 
-const ImageCard = ({ src, key, alt, className }) => {
+const ImageCard = ({ src, alt, className }) => {
+
   return (
+
     <img
-      key={src}
-      className={className}
       src={src}
       alt={alt}
     />
