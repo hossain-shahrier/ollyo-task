@@ -7,8 +7,8 @@ const Navbar = ({ seletedImage }) => {
         console.log("Delete button clicked")
     }
     return (
-        <header className="w-full mx-auto z-50 bg-blue-50 flex items-center top-0 fixed px-6 py-5 border border-b-2">
-            <div className="flex w-full items-center justify-between">
+        <header className="w-full mx-auto z-50 bg-blue-50 flex items-center top-0 fixed h-16 border border-b-2">
+            <div className="px-6 flex w-full items-center justify-between">
                 {/* Logo */}
                 <Logo />
                 {/* Delete Button */}
