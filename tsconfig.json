@@ -8,14 +8,13 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react", // or "react-jsx" for React 16
-    "types": ["node"]
+    "jsx": "react-jsx"
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.json", "src/services/actions/imageActions.js", "src/services/constants/selectConstants.js"],
-  "exclude": ["node_modules", "build", "dist"]
+  "include": ["src"]
 }
